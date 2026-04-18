@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 
 if (!url) {
-    console.error("❌ КРИТИЧЕСКАЯ ОШИБКА: MONGO_URI не определен в файле .env");
+    console.error(" КРИТИЧЕСКАЯ ОШИБКА: MONGO_URI не определен в файле .env");
     process.exit(1); 
 }
 
